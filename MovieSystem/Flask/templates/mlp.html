@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="card">
+        <div class="card-body">
+            <div class="card">
+                <div class="card-body">
+                    <h1>使用多层感知机为您推荐</h1>
+                </div>
+              </div>
+            <br>
+            <div class="card">
+                <div class="card-body">
+                    <form method="post" action="/predict3">
+                        你喜欢的电影质量(评分0 - 10)：<input name="rating">
+                        <br><br>
+                        类型1：剧情<input type="radio" name="category1" value="剧情">
+                        动作<input type="radio" name="category1" value="动作">
+                        爱情<input type="radio" name="category1" value="爱情">
+                        历史<input type="radio" name="category1" value="历史">
+                        动画<input type="radio" name="category1" value="动画">
+                        科幻<input type="radio" name="category1" value="科幻">
+                        奇幻<input type="radio" name="category1" value="奇幻">
+                        喜剧<input type="radio" name="category1" value="喜剧">
+                        冒险<input type="radio" name="category1" value="冒险">
+                        情色<input type="radio" name="category1" value="情色">
+                        犯罪<input type="radio" name="category1" value="犯罪">
+                        惊悚<input type="radio" name="category1" value="惊悚">
+                        音乐<input type="radio" name="category1" value="音乐">
+                        传记<input type="radio" name="category1" value="传记">
+                        西部<input type="radio" name="category1" value="西部">
+                        战争<input type="radio" name="category1" value="战争">
+                        家庭<input type="radio" name="category1" value="家庭">
+                        歌舞<input type="radio" name="category1" value="歌舞">
+                        悬疑<input type="radio" name="category1" value="悬疑">
+                        黑色电影<input type="radio" name="category1" value="黑色电影">
+                        <br><br>
+                        类型2：剧情<input type="radio" name="category2" value="剧情">
+                        动作<input type="radio" name="category2" value="动作">
+                        爱情<input type="radio" name="category2" value="爱情">
+                        历史<input type="radio" name="category2" value="历史">
+                        动画<input type="radio" name="category2" value="动画">
+                        科幻<input type="radio" name="category2" value="科幻">
+                        奇幻<input type="radio" name="category2" value="奇幻">
+                        喜剧<input type="radio" name="category2" value="喜剧">
+                        冒险<input type="radio" name="category2" value="冒险">
+                        情色<input type="radio" name="category2" value="情色">
+                        犯罪<input type="radio" name="category2" value="犯罪">
+                        惊悚<input type="radio" name="category2" value="惊悚">
+                        音乐<input type="radio" name="category2" value="音乐">
+                        传记<input type="radio" name="category2" value="传记">
+                        西部<input type="radio" name="category2" value="西部">
+                        战争<input type="radio" name="category2" value="战争">
+                        家庭<input type="radio" name="category2" value="家庭">
+                        歌舞<input type="radio" name="category2" value="歌舞">
+                        悬疑<input type="radio" name="category2" value="悬疑">
+                        黑色电影<input type="radio" name="category2" value="黑色电影">
+                              <br><br>
+                        特色标签：<input type="text" name="tag">
+                        <br><br>
+                        电影期望时长：<input type="text" name="duration">
+                        <br><br>
+                            <button class="btn btn-primary" type="submit">推荐电影</button>
+                    </form>
+                </div>
+              </div>
+            
+        </div>
+      </div>
+    
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!-- 打开终端或命令提示符并导航到包含 HTML、JavaScript 和 CSV 文件的目录。
+
+运行以下命令启动服务器：
+在 Python 3 上：
+
+python -m http.server 8000
+
+打开您的网络浏览器并转到地址 http://localhost:8000 以访问您的网页。
+
+通过运行本地服务器，您应该能够获取 CSV 文件而不会遇到您之前看到的 CORS 错误。
+
+另外，请确保获取 URL 中的文件名正确并与目录中的实际文件名匹配。 -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kmeans聚类</title>
+    <link rel="stylesheet" href="k_style.css">
+    <meta charset="UTF-8">
+  </head>
+  
+  <body>
+    <h1 style="text-align: center;">使用Kmeans为您推荐</h1>
+    <table id="movie-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Director</th>
+          <th>Rating</th>
+          <th>Category</th>
+          <th>Duration</th>
+          <th>Tags</th>
+          <th>Labels</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+
+      </tbody>
+    </table>
+    <div id="pagination">
+
+    </div>
+      <script src="k_script.js"></script>
+    </body>
+</html>
